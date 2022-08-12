@@ -101,11 +101,19 @@ body{
 }
 
 .display-flex-4{
-    width: 80%;
+    width: 78%;
     display: flex;
     margin: 0 auto;
     
 }
+
 .section-4-half{
     width: 50%;
+    margin: 30px;
+}
+.section-4-half h1{
+    font-size: 34px;
+}
+.section-4-half img{
+    width: 80%;
 }
