@@ -99,3 +99,13 @@ body{
 .bacground-2{
     background-color: rgb(225, 245, 245);
 }
+
+.display-flex-4{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.section-4-half{
+    width: 50%;
+}
