@@ -66,7 +66,7 @@ body{
 }
 
 .section-2-last{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -143,17 +143,47 @@ picture{
 }
 .section-5-half{
     background-color: rgb(245, 220, 215);
+    width: 50%;
+    height: 50px;
+    margin: 40px auto;
+    padding: 95px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+.input-gmail{
     text-align: center;
     width: 50%;
-    margin: 40px auto;
-    padding: 30px;
-    margin-bottom: 40px;
+    margin: 0 auto;
+    height: 55px;
+    position: relative;
+
+}
+.section-5-half .input-gmail input{
+    height: 50%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+.section-5-half .input-gmail label{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    color: gray;
+    pointer-events: none;
+}
+.displays{
+    display:flex;
+
+}
+.button{
+    margin-right: 80px;
 }
 
 .footer{
     text-align: center;
     background-color: rgb(19, 6, 68);
-    height: 200px;
+    height: 100px;
+    padding: 40px;
     color: white;
 }
 footer h1{
